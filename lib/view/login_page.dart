@@ -23,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               TextField(
-                onChanged: (value){
+                onChanged: (value) {
                   print(value);
                 },
                 decoration: InputDecoration(
@@ -36,14 +36,12 @@ class _LoginPageState extends State<LoginPage> {
                   labelText: 'Password',
                 ),
               ),
-
               MaterialButton(
-                onPressed:(){},
+                onPressed: () {},
                 child: Text('Log in'),
               ),
-
               MaterialButton(
-                  onPressed: (){},
+                onPressed: () {},
                 child: Text('Create an account'),
               ),
             ],
@@ -54,37 +52,3 @@ class _LoginPageState extends State<LoginPage> {
   }
 }
 
-class RegisterPage extends StatelessWidget{
-  const RegisterPage({super.key});
-
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(''),
-      ),
-      body: Center(
-        child: Column(
-          children:[
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Name',
-              ),
-            ),
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Account number',
-              ),
-            ),
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Password',
-              ),
-            ),
-          ]
-
-        )
-      ),
-    );
-  }
-}
