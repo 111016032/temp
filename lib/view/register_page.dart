@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});
 
@@ -9,22 +11,22 @@ class RegisterPage extends StatelessWidget {
       ),
       body: Center(
           child: Column(children: [
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Name',
-              ),
-            ),
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Account number',
-              ),
-            ),
-            TextField(
-              decoration: InputDecoration(
-                labelText: 'Password',
-              ),
-            ),
-          ])),
+        TextField(
+          decoration: InputDecoration(
+            labelText: 'Name',
+          ),
+        ),
+        TextField(
+          decoration: InputDecoration(
+            labelText: 'Account number',
+          ),
+        ),
+        TextField(
+          decoration: InputDecoration(
+            labelText: 'Password',
+          ),
+        ),
+      ])),
     );
   }
 }
