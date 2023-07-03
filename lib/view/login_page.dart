@@ -46,20 +46,6 @@ class _LoginPageState extends State<LoginPage> {
                   onPressed: (){},
                 child: Text('Create an account'),
               ),
-              //OutlinedButton(onPressed: () {}, child: Text('create an account')),
-
-              MaterialButton(
-                onPressed: (){},
-                child: Text('Create an account'),
-              ),
-              //OutlinedButton(onPressed: () {}, child: Text('create an account')),
-
-              MaterialButton(
-                onPressed: (){},
-                child: Text('Create an account'),
-              ),
-              //OutlinedButton(onPressed: () {}, child: Text('create an account')),
-
             ],
           ),
         ),
